@@ -4,7 +4,7 @@ public class DeviceInfoModule: Module {
   public func definition() -> ModuleDefinition {
     Name("DeviceInfo")
 
-    Function("hello") {
+    Function("getPermissions") {
       return "Hello world! 👋"
     }
   }
